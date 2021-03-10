@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* AWAL HEADER */
+header {
+    height: 80px;
+}
+
+header .logo {
+    color: purple;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    letter-spacing: -2px;
+}
+
+span {
+    color: salmon;
+}
+
+header .nav {
+    
+    float: right;
+    margin-right: 60px;
+}
+
+.nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* AKHIR HEADER */
+
+/* AWAL BANNER */
+.top-banner {
+    height: 480px;
+}
+
+.top-banner img {
+    margin-left: 80px;
+}
+
+.top-banner h2 {
+    font-size: 28px;
+}
+
+.banner {
+    color:#2c3e50;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: 100px;
+    line-height: 30px;
+    margin-right: 75px;
+}
+
+.btn-banner {
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn-order {
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    background-color: salmon;
+    color: #fff;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 7px #333;
+}
+
+.btn-template {
+    font-weight: 100;
+    border: 2px solid #333;
+    height: 50px;
+    width: 200px;
+    color: #333;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.btn-template:hover {
+    background-color: rgb(158, 208, 240);
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-order:active {
+    box-shadow: none;
+    top: 7px;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+}
+
+.umum {
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+/* AKHIR BANNER */
