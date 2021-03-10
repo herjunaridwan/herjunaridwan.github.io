@@ -1,0 +1,70 @@
+@media (max-width:1000px) {
+    .top-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header .logo {
+        margin-left: 20px;
+    }
+
+    .top-banner img {
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+    
+    header {
+        margin-top: 20px;
+    }
+
+    .banner {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    header .nav {
+        display: none;
+    }
+
+    header .logo {
+        font-size: 28px;
+        padding: 10px; 
+    }
+
+    .banner {
+        margin: 0 auto;
+    }
+
+    .banner h2 {
+        font-size: 20px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .umum {
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+
+    .btn-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-template {
+        background-color: rgb(158, 208, 240);
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .btn-order {
+        width: 100%;
+        font-size: 15px;
+    }
+
+
+
+}
